@@ -14,11 +14,14 @@
         <h4>Select size of squares</h4>
         <button id ="popup">Select size</button>
     </div>
+    <p id="message"></p>
+    <p id="size"></p>
+    <p id="draw"></p>
     <div class="container"></div>
     <div class="footer">
-        <button>Black</button>
-        <button>Random</button>
-        <button>Reset board</button>
+        <button onclick = "setColor('black')">Black</button>
+        <button onclick = "setColor('random')">Random</button>
+        <button onclick="resetContainer()">Reset board</button>
     </div>
     
 </body>
